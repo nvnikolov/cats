@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+analysis/output/
+scheduler/timeline_*.csv

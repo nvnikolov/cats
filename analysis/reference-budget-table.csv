@@ -1,0 +1,4 @@
+input_mb,low_budget_cost_saving_pct,low_budget_makespan_penalty_pct,budget_1_cost_saving_pct,budget_1_makespan_penalty_pct
+1229,100.0,64.6,12.0,0.1
+6143,100.0,33.8,69.4,1.9
+36955,100.0,0.0,100.0,0.0

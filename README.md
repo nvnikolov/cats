@@ -1,49 +1,85 @@
-# CATS scheduler
+# CATS: Context-aware Timeline Scheduler
 
-This repository contains the code and instructions associated with replicating the results from the paper on scheduling data pipelines on Comuting Continuum resources using the Context-Aware Timeline Scheduler (CATS). It is organized into three main folders: `scheduler`, `experiment`, and `pipeline`.
+Code and evaluation artifacts for **CATS: Context-aware Timeline Scheduler for Data Pipelines on the Computing Continuum**, submitted to the *Journal of Cloud Computing*.
 
-## Repository Structure
+Paper authors: Nikolay Nikolov, Narges Mehran, Ahmet Soylu, Radu Prodan and Dumitru Roman.
 
-### Scheduler
+This repository contains the original scheduler and pipeline implementation plus supporting code and results added during rebuttal. The scheduler calculations are preserved, including the limitations described in [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md).
 
-The `scheduler` folder contains the CATS scheduler and code to perform scheduling on a target infrastructure as described in the paper. This includes:
+## Versions and provenance
 
-- The main scheduling script (`main.py`)
-- Required libraries and dependencies (`requirements.txt`)
-- Implementation of the CATS scheduler, organized as an object-oriented Python project
+- Author-maintained repository: https://github.com/nvnikolov/cats
+- Original anonymous review snapshot: commit `8bd6a739ef547c586a668c3c2fcbc77bdf995fa2`, preserved by tag `review-submission-2024`.
+- Publication package: tag `paper-artifact-2026-11-05`.
+- Original review repository: https://github.com/anonymousuni/cats
 
-For detailed instructions on how to use the scheduler, refer to the `README.md` file within the `scheduler` folder.
+The publication package adds rebuttal artifacts and reproduction instructions. It removes generated Python bytecode from the current tree. It does not correct the scheduler's historical cost model. See [analysis/provenance.json](analysis/provenance.json) for imported artifact hashes and provenance. A Zenodo DOI has not yet been assigned.
 
-### Experiment
+## Contents
 
-The `experiment` folder contains instructions on infrastructure setup to replicate the environment described in the paper. It also includes instructions on how to perform dry runs of the pipeline and perform deployments according to the schedules produced by the CATS scheduler and serialized as CSV files.
+| Directory | Contents |
+| --- | --- |
+| `scheduler/` | Scheduler implementation, dry-run inputs and budget sweep |
+| `pipeline/` | Processing steps and container build files |
+| `experiment/` | Original testbed setup, dry-run and deployment scripts |
+| `samples/` | Original 14 MB sample archive |
+| `scheduler-cost-sweep/` | Archived rebuttal sweep: 190 candidate schedules across 180 settings |
+| `analysis/` | Measured evaluation data, historical schedules, selected replay, figure and table scripts |
 
-For detailed instructions on setting up the infrastructure and performing experiments, refer to the `README.md` file within the `experiment` folder.
+## Install
 
-### Pipeline
+The packaging verification uses Python 3.12. The pinned environment records the dependencies used for that verification; the original 2024 environment was not recorded.
 
-The `pipeline` folder contains the source code for the pipeline under study. It also includes files that can be used to build the container images used to implement the pipeline. Each sub-folder within the `pipeline` folder contains a `Dockerfile` and related files for building the container images for each step of the pipeline.
+```sh
+git clone https://github.com/nvnikolov/cats.git
+cd cats
+python3.12 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements-reproducible.txt
+```
 
-For detailed instructions on building and running the pipeline steps, refer to the `README.md` file within the `pipeline` folder.
+## Reproduce the archived analysis
 
-## Getting Started
+These commands use the included measurements and require no AWS account:
 
-To get started with the repository, follow these steps:
+```sh
+python analysis/reproduce_budget_table.py
+python analysis/rebuild_pipeline_step_figures.py
+```
 
-1. **Clone the Repository**:
+Outputs go to `analysis/output/`. The budget table can also be generated using Python's standard library alone. See [analysis/README.md](analysis/README.md) for the mapping to paper figures and input provenance.
 
-    ```sh
-    git clone <repository-url>
-    ```
+## Run the scheduler
 
-2. **Navigate to the Desired Folder**:
+```sh
+cd scheduler
+python main.py --display_timelines 0
+```
 
-    Depending on your goal, navigate to the appropriate folder (`scheduler`, `experiment`, or `pipeline`) and follow the instructions provided in the respective `README.md` file.
+The original entry point schedules nine input volumes with scaling settings 1 and 6 and writes timeline CSVs in `scheduler/`. Setting 6 allows up to five replicas because the historical implementation uses an exclusive range endpoint.
 
-## License
+A full budget sweep is computationally expensive. Write new results to a separate directory to preserve the archived rebuttal results:
 
-This project code will be licensed under the MIT License.
+```sh
+python cost_sweep.py --output-dir ../analysis/output/new-cost-sweep
+```
 
-## Contact
+For a smaller example:
 
-For any questions or issues, please contact the this repository's owner.
+```sh
+python cost_sweep.py --input-volumes 1229 --budgets 0.0005 100 --max-scalability-values 1 --representative-inputs 1229 --output-dir ../analysis/output/example-sweep
+```
+
+Budget and deadline normalize the objective and are not hard constraints. Reported sweep costs cover modeled cloud compute; Fog compute is modeled as free. Transfer cost still participates in scheduler selection. Read the known limitations before interpreting costs.
+
+## Deploy the pipeline
+
+Follow [experiment/README.md](experiment/README.md) and [pipeline/README.md](pipeline/README.md). These are the original AWS/k3s testbed instructions. Deployment incurs cloud charges. Container image tags and infrastructure packages are not locked to historical digests, and the live cloud deployment has not been revalidated for this package.
+
+The included sample supports a small pipeline run. Larger raw input archives used in the evaluation are not included; the measured CSVs needed to regenerate the published analysis are included. The original experiment documentation describes obtaining additional samples on request.
+
+## Citation and license
+
+Use [CITATION.cff](CITATION.cff) to cite the software artifact. The accompanying article's DOI can be added when available.
+
+Project code is distributed under the [MIT license](LICENSE). The original copyright notice is retained. Bundled third-party utilities retain their own notices.

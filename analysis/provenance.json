@@ -1,0 +1,1138 @@
+{
+  "original_review_commit": "8bd6a739ef547c586a668c3c2fcbc77bdf995fa2",
+  "description": "Imported research artifacts. sha256 identifies the packaged file; source_sha256, when present, identifies the source before documented packaging edits.",
+  "files": [
+    {
+      "path": "scheduler/cost_sweep.py",
+      "source": "rebuttal scheduler script",
+      "sha256": "2486555d87ebdd146edc37c33602797104336c66d09c206a42554a1c1e0e4ee2"
+    },
+    {
+      "path": "scheduler/README.md",
+      "source": "rebuttal scheduler instructions",
+      "sha256": "f7f6932d3d94e09c5f42d18392bf55467b7d0234ec7997829313874faa3f9847",
+      "source_sha256": "0484692dbb60c1b516ceeeff584156b2872049b14c7a2abb520928cf182e481b"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_212353_deadline1000_budget100_input1229MB_maxscalability1.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "270274c9bb9a0211310eed9715e0fdac0ec9b55eb1245bd487090085702f0da8"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_212809_deadline1000_budget100_input1229MB_maxscalability6.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "d29a483476df742b7b324fd1d8edc3514343858669fed9934eec02175134df6d"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_213052_deadline1000_budget100_input2483MB_maxscalability1.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "8d8b7e6254c4b99d2143cb7da084af080f6334a8d7604d6b0a0bf5e418f8b049"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_213520_deadline1000_budget100_input2483MB_maxscalability6.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "9a088b1941c34787c76688032c6342d0dcc01e130daf19df3007149c116a329b"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_213931_deadline1000_budget100_input3694MB_maxscalability1.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "9a055ab00e3b490fd50a74b2b8cb455e66c6a5f50384f4a4418552526901ab58"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_214311_deadline1000_budget100_input3694MB_maxscalability6.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "d9848e56cbde63c48d709f9e4cbe01a3a0e1a5f548ac94e769f96095bb28579f"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_214524_deadline1000_budget100_input4914MB_maxscalability1.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "3b9a354c5b9e5ce9cff9d6034df84a6d7f6bf04c7c98bd0df8a30d3552008afa"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_215053_deadline1000_budget100_input4914MB_maxscalability6.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "a19ff50340d2a566f782506390ed2e51720f04bd169d40022bc24d2ea8b79fa1"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_215308_deadline1000_budget100_input6143MB_maxscalability1.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "20e406ef9e6a44343c6ea1c2b8470064d7c22ab8163bebb06d851903ae034365"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_215808_deadline1000_budget100_input6143MB_maxscalability6.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "dd2f7ea185b2137ce99784129c08aadd8baa0a5bdfca373a60c2b03fc9bdc885"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_220019_deadline1000_budget100_input7388MB_maxscalability1.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "3486b749203345dfa743026673a20ee160ac5124f4419a70bf5bcae00a7b7044"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_220508_deadline1000_budget100_input7388MB_maxscalability6.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "9c9f07c26a074e8ca962370a3a4fff332ded42f626973fcc3c0f7e238cb1e31d"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_220722_deadline1000_budget100_input12296MB_maxscalability1.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "5ce24e4b5aad4a26c2c61692a6da0da2abc8d73688f1ba3d86e565b76e3791c4"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_221201_deadline1000_budget100_input12296MB_maxscalability6.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "ab41c2801714ac7fd6428412d57510e90df41837d6edd04974fca770594be2f7"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_221426_deadline1000_budget100_input24664MB_maxscalability1.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "87e783c4d9a414dddb22b0beaab33b3fcf98c611c404c7aaaa25316f1a3ca7d0"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_221927_deadline1000_budget100_input24664MB_maxscalability6.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "a2e0e07ab71aa783c9940469e2e90de79ed866cdaf93de0ef21f720ff2f22aae"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_222150_deadline1000_budget100_input36955MB_maxscalability1.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "637550e75ea1a5ff22498e0981609bf84466214514911f2819a7ea09c1c680b3"
+    },
+    {
+      "path": "analysis/data/timeline_metrics3_20241121_222720_deadline1000_budget100_input36955MB_maxscalability6.csv",
+      "source": "historical deployment schedule, November 2024",
+      "sha256": "ebe48f41c7820246e91baf032dc79267ec3924ea76dd594835179d9c8fd6ef36"
+    },
+    {
+      "path": "analysis/data/deployment_times.csv",
+      "source": "evaluation measurements from local research workspace",
+      "sha256": "ee3ead47c6d5c0d5c2c1bc5b4c5746ae4d800eb8ed2dac8b82d43d88c071f8e4"
+    },
+    {
+      "path": "analysis/data/step_times.csv",
+      "source": "evaluation measurements from local research workspace",
+      "sha256": "6fc56fe3a4b36b60b4b173601b30ca992bac43cbfe6fbad94f7ecb9bfc5c0fc1"
+    },
+    {
+      "path": "analysis/data/step_performance_metrics_exp2.csv",
+      "source": "evaluation measurements from local research workspace",
+      "sha256": "b0ae0ff2782be731b3ae315132407500e6cdc4cbf728f62754e104efc70edb37"
+    },
+    {
+      "path": "analysis/data/deployment_metrics.csv",
+      "source": "evaluation measurements from local research workspace",
+      "sha256": "62a4263352607bfa0a0a50b3c27a788a41a8ef63b95e4742ac575f74d63d711b"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151052_deadline1000_budget0p0005_input1229MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "55f3f38982ad9f364bde42a3290ae4a6a5328a6f899802afdabff236e1c3f29c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151052_deadline1000_budget0p001_input1229MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "55f3f38982ad9f364bde42a3290ae4a6a5328a6f899802afdabff236e1c3f29c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151052_deadline1000_budget0p002_input1229MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "55f3f38982ad9f364bde42a3290ae4a6a5328a6f899802afdabff236e1c3f29c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151052_deadline1000_budget0p005_input1229MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "55f3f38982ad9f364bde42a3290ae4a6a5328a6f899802afdabff236e1c3f29c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151052_deadline1000_budget0p01_input1229MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "55f3f38982ad9f364bde42a3290ae4a6a5328a6f899802afdabff236e1c3f29c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151052_deadline1000_budget0p02_input1229MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "55f3f38982ad9f364bde42a3290ae4a6a5328a6f899802afdabff236e1c3f29c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151052_deadline1000_budget0p05_input1229MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "55f3f38982ad9f364bde42a3290ae4a6a5328a6f899802afdabff236e1c3f29c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151052_deadline1000_budget0p1_input1229MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "55f3f38982ad9f364bde42a3290ae4a6a5328a6f899802afdabff236e1c3f29c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151052_deadline1000_budget1_input1229MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "55f3f38982ad9f364bde42a3290ae4a6a5328a6f899802afdabff236e1c3f29c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151053_deadline1000_budget100_input1229MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "3abd31d7dbcc6f909b0326887520cab75404a4e75aefecf3107535619c06db55"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151136_deadline1000_budget0p0005_input1229MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "ea4ae1a53fbdab67a660d212c7fdea340e62c6eefade09e93e93b65f26fe268b"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151155_deadline1000_budget0p001_input1229MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "ea4ae1a53fbdab67a660d212c7fdea340e62c6eefade09e93e93b65f26fe268b"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151219_deadline1000_budget0p002_input1229MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "ea4ae1a53fbdab67a660d212c7fdea340e62c6eefade09e93e93b65f26fe268b"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151243_deadline1000_budget0p005_input1229MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "ea4ae1a53fbdab67a660d212c7fdea340e62c6eefade09e93e93b65f26fe268b"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151306_deadline1000_budget0p01_input1229MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "ea4ae1a53fbdab67a660d212c7fdea340e62c6eefade09e93e93b65f26fe268b"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151328_deadline1000_budget0p02_input1229MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "ea4ae1a53fbdab67a660d212c7fdea340e62c6eefade09e93e93b65f26fe268b"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151353_deadline1000_budget0p05_input1229MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "ea4ae1a53fbdab67a660d212c7fdea340e62c6eefade09e93e93b65f26fe268b"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151423_deadline1000_budget0p1_input1229MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "ea4ae1a53fbdab67a660d212c7fdea340e62c6eefade09e93e93b65f26fe268b"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151451_deadline1000_budget1_input1229MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "6486979a9daea6a15c29d1dfdc6491e3aa25001661a67594110029e9ea789b99"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151519_deadline1000_budget100_input1229MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "513a221552d91a3253e4894b3e188e3bd215f5c9a8124e3bcab954789345c7b7"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151545_deadline1000_budget0p0005_input2483MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "45ad1c1787449cf5dfc7022f63580d6af8f25382a1f05f7910a242bfacc80ecf"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151545_deadline1000_budget0p001_input2483MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "45ad1c1787449cf5dfc7022f63580d6af8f25382a1f05f7910a242bfacc80ecf"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151545_deadline1000_budget0p002_input2483MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "45ad1c1787449cf5dfc7022f63580d6af8f25382a1f05f7910a242bfacc80ecf"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151546_deadline1000_budget0p005_input2483MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "45ad1c1787449cf5dfc7022f63580d6af8f25382a1f05f7910a242bfacc80ecf"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151546_deadline1000_budget0p01_input2483MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "45ad1c1787449cf5dfc7022f63580d6af8f25382a1f05f7910a242bfacc80ecf"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151546_deadline1000_budget0p02_input2483MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "45ad1c1787449cf5dfc7022f63580d6af8f25382a1f05f7910a242bfacc80ecf"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151546_deadline1000_budget0p05_input2483MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "45ad1c1787449cf5dfc7022f63580d6af8f25382a1f05f7910a242bfacc80ecf"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151546_deadline1000_budget0p1_input2483MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "45ad1c1787449cf5dfc7022f63580d6af8f25382a1f05f7910a242bfacc80ecf"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151546_deadline1000_budget100_input2483MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "f3814f9c64df79bd742c8f6ce2bed51180ca0317288ab2c69512e6a6fa82af78"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151546_deadline1000_budget1_input2483MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "45ad1c1787449cf5dfc7022f63580d6af8f25382a1f05f7910a242bfacc80ecf"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151636_deadline1000_budget0p0005_input2483MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b8e7f4128e4ed7bc28e7e7c2c506414d4f096c8f35ec4642bc80ef37c96b256c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151658_deadline1000_budget0p001_input2483MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b8e7f4128e4ed7bc28e7e7c2c506414d4f096c8f35ec4642bc80ef37c96b256c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151722_deadline1000_budget0p002_input2483MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b8e7f4128e4ed7bc28e7e7c2c506414d4f096c8f35ec4642bc80ef37c96b256c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151748_deadline1000_budget0p005_input2483MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b8e7f4128e4ed7bc28e7e7c2c506414d4f096c8f35ec4642bc80ef37c96b256c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151805_deadline1000_budget0p01_input2483MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b8e7f4128e4ed7bc28e7e7c2c506414d4f096c8f35ec4642bc80ef37c96b256c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151824_deadline1000_budget0p02_input2483MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b8e7f4128e4ed7bc28e7e7c2c506414d4f096c8f35ec4642bc80ef37c96b256c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151853_deadline1000_budget0p05_input2483MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b8e7f4128e4ed7bc28e7e7c2c506414d4f096c8f35ec4642bc80ef37c96b256c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151921_deadline1000_budget0p1_input2483MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b8e7f4128e4ed7bc28e7e7c2c506414d4f096c8f35ec4642bc80ef37c96b256c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_151948_deadline1000_budget1_input2483MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "e4106f065a4190be23ea6161204e1e4d595e0318e29e5de70104547ce68223e5"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152011_deadline1000_budget100_input2483MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "ac7b26fed6f2db8ecb09f07e7302a791bff6994549a1eb715ad922ca91acdf97"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152037_deadline1000_budget0p0005_input3694MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "54ffe6b64e41b5b84b76eccbe9429c5428be2cff52324be561d43ed3af874095"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152037_deadline1000_budget0p001_input3694MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "54ffe6b64e41b5b84b76eccbe9429c5428be2cff52324be561d43ed3af874095"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152037_deadline1000_budget0p002_input3694MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "54ffe6b64e41b5b84b76eccbe9429c5428be2cff52324be561d43ed3af874095"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152037_deadline1000_budget0p005_input3694MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "54ffe6b64e41b5b84b76eccbe9429c5428be2cff52324be561d43ed3af874095"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152037_deadline1000_budget0p01_input3694MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "54ffe6b64e41b5b84b76eccbe9429c5428be2cff52324be561d43ed3af874095"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152037_deadline1000_budget0p02_input3694MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "54ffe6b64e41b5b84b76eccbe9429c5428be2cff52324be561d43ed3af874095"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152037_deadline1000_budget0p05_input3694MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "54ffe6b64e41b5b84b76eccbe9429c5428be2cff52324be561d43ed3af874095"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152037_deadline1000_budget0p1_input3694MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "54ffe6b64e41b5b84b76eccbe9429c5428be2cff52324be561d43ed3af874095"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152037_deadline1000_budget100_input3694MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "ec3bb71864c52a5bf859234a9dda4420e424bb9a7fa90fc3f27822d299afb31c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152037_deadline1000_budget1_input3694MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "54ffe6b64e41b5b84b76eccbe9429c5428be2cff52324be561d43ed3af874095"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152119_deadline1000_budget0p0005_input3694MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c6b459f48f3c1275e0a91a9a5af028b0cb865492dd528995a7220c99ecccf3fa"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152140_deadline1000_budget0p001_input3694MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c6b459f48f3c1275e0a91a9a5af028b0cb865492dd528995a7220c99ecccf3fa"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152206_deadline1000_budget0p002_input3694MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c6b459f48f3c1275e0a91a9a5af028b0cb865492dd528995a7220c99ecccf3fa"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152222_deadline1000_budget0p005_input3694MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c6b459f48f3c1275e0a91a9a5af028b0cb865492dd528995a7220c99ecccf3fa"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152240_deadline1000_budget0p01_input3694MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c6b459f48f3c1275e0a91a9a5af028b0cb865492dd528995a7220c99ecccf3fa"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152301_deadline1000_budget0p02_input3694MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c6b459f48f3c1275e0a91a9a5af028b0cb865492dd528995a7220c99ecccf3fa"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152321_deadline1000_budget0p05_input3694MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c6b459f48f3c1275e0a91a9a5af028b0cb865492dd528995a7220c99ecccf3fa"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152348_deadline1000_budget0p1_input3694MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c6b459f48f3c1275e0a91a9a5af028b0cb865492dd528995a7220c99ecccf3fa"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152414_deadline1000_budget1_input3694MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "91bbdd625081385410fdc8a5a7c77498b3676c8bc55151f898ede57bee31c6a7"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152447_deadline1000_budget100_input3694MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "df898b7654858bb413604ca36644f789824a5e33a43e69bb3241ed600b498208"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152513_deadline1000_budget0p0005_input4914MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "88525e833edb833fae9c46c08d77175c79e931d6ad9156fcfdc7ba0b6a9119b4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152513_deadline1000_budget0p001_input4914MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "88525e833edb833fae9c46c08d77175c79e931d6ad9156fcfdc7ba0b6a9119b4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152513_deadline1000_budget0p002_input4914MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "88525e833edb833fae9c46c08d77175c79e931d6ad9156fcfdc7ba0b6a9119b4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152513_deadline1000_budget0p005_input4914MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "88525e833edb833fae9c46c08d77175c79e931d6ad9156fcfdc7ba0b6a9119b4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152513_deadline1000_budget0p01_input4914MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "88525e833edb833fae9c46c08d77175c79e931d6ad9156fcfdc7ba0b6a9119b4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152513_deadline1000_budget0p02_input4914MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "88525e833edb833fae9c46c08d77175c79e931d6ad9156fcfdc7ba0b6a9119b4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152513_deadline1000_budget0p05_input4914MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "88525e833edb833fae9c46c08d77175c79e931d6ad9156fcfdc7ba0b6a9119b4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152513_deadline1000_budget0p1_input4914MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "88525e833edb833fae9c46c08d77175c79e931d6ad9156fcfdc7ba0b6a9119b4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152513_deadline1000_budget100_input4914MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "ab44f0208782c77e481df3c3eeee529b6546cfc5aff3e28884f8309c2d503fa6"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152513_deadline1000_budget1_input4914MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "88525e833edb833fae9c46c08d77175c79e931d6ad9156fcfdc7ba0b6a9119b4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152600_deadline1000_budget0p0005_input4914MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c9c562ffebb1ced9f6c33be59e873248c54b5d3a6266cf66d702b0db273e8ddc"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152627_deadline1000_budget0p001_input4914MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c9c562ffebb1ced9f6c33be59e873248c54b5d3a6266cf66d702b0db273e8ddc"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152651_deadline1000_budget0p002_input4914MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c9c562ffebb1ced9f6c33be59e873248c54b5d3a6266cf66d702b0db273e8ddc"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152711_deadline1000_budget0p005_input4914MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c9c562ffebb1ced9f6c33be59e873248c54b5d3a6266cf66d702b0db273e8ddc"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152738_deadline1000_budget0p01_input4914MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c9c562ffebb1ced9f6c33be59e873248c54b5d3a6266cf66d702b0db273e8ddc"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152804_deadline1000_budget0p02_input4914MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c9c562ffebb1ced9f6c33be59e873248c54b5d3a6266cf66d702b0db273e8ddc"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152829_deadline1000_budget0p05_input4914MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c9c562ffebb1ced9f6c33be59e873248c54b5d3a6266cf66d702b0db273e8ddc"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152853_deadline1000_budget0p1_input4914MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c9c562ffebb1ced9f6c33be59e873248c54b5d3a6266cf66d702b0db273e8ddc"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152918_deadline1000_budget1_input4914MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "cbddacd8e149f7e5d29c99e1bfea32700dc3eda6b71a57be694fd2e172160e74"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_152946_deadline1000_budget100_input4914MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "fa30ca6b1ed41446fac86550ec8f4eeb88e3f1e92affd8e383beb5679686c155"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153012_deadline1000_budget0p0005_input6143MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "f00cf460e9e06bd967fc5bd38a576d615030b2f11e7b7b3245cc00d30734cfa9"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153012_deadline1000_budget0p001_input6143MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "f00cf460e9e06bd967fc5bd38a576d615030b2f11e7b7b3245cc00d30734cfa9"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153012_deadline1000_budget0p002_input6143MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "f00cf460e9e06bd967fc5bd38a576d615030b2f11e7b7b3245cc00d30734cfa9"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153012_deadline1000_budget0p005_input6143MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "f00cf460e9e06bd967fc5bd38a576d615030b2f11e7b7b3245cc00d30734cfa9"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153012_deadline1000_budget0p01_input6143MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "f00cf460e9e06bd967fc5bd38a576d615030b2f11e7b7b3245cc00d30734cfa9"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153012_deadline1000_budget0p02_input6143MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "f00cf460e9e06bd967fc5bd38a576d615030b2f11e7b7b3245cc00d30734cfa9"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153012_deadline1000_budget0p05_input6143MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "f00cf460e9e06bd967fc5bd38a576d615030b2f11e7b7b3245cc00d30734cfa9"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153012_deadline1000_budget0p1_input6143MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "f00cf460e9e06bd967fc5bd38a576d615030b2f11e7b7b3245cc00d30734cfa9"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153012_deadline1000_budget100_input6143MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "d9563e42b9ef0a25acbb3a8abe1c4784273df3e6f4367bd29b2e13e76ea41729"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153012_deadline1000_budget1_input6143MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "f00cf460e9e06bd967fc5bd38a576d615030b2f11e7b7b3245cc00d30734cfa9"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153101_deadline1000_budget0p0005_input6143MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "98e608eba8868afeeeb9c0179870bf7dd12621b8941659d74d8784f26b0b7885"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153126_deadline1000_budget0p001_input6143MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "98e608eba8868afeeeb9c0179870bf7dd12621b8941659d74d8784f26b0b7885"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153141_deadline1000_budget0p002_input6143MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "98e608eba8868afeeeb9c0179870bf7dd12621b8941659d74d8784f26b0b7885"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153203_deadline1000_budget0p005_input6143MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "98e608eba8868afeeeb9c0179870bf7dd12621b8941659d74d8784f26b0b7885"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153230_deadline1000_budget0p01_input6143MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "98e608eba8868afeeeb9c0179870bf7dd12621b8941659d74d8784f26b0b7885"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153257_deadline1000_budget0p02_input6143MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "98e608eba8868afeeeb9c0179870bf7dd12621b8941659d74d8784f26b0b7885"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153319_deadline1000_budget0p05_input6143MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "98e608eba8868afeeeb9c0179870bf7dd12621b8941659d74d8784f26b0b7885"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153345_deadline1000_budget0p1_input6143MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "98e608eba8868afeeeb9c0179870bf7dd12621b8941659d74d8784f26b0b7885"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153416_deadline1000_budget1_input6143MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "64e8bb29f11a6793e7853008730d5e9f84e6bb5198b2e15f05a628e25b1b9d40"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153416_deadline1000_budget1_input6143MB_maxscalability6_candidate2.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "5bd74569a9c25c6faff84e83eec8bef5554b4126e415ee95fe489ca46ea8be57"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153416_deadline1000_budget1_input6143MB_maxscalability6_candidate3.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "e9ca714ea72b8ef79b819e527d8b2426964ae5aafc1bc01b2b5cd774e6e42966"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153416_deadline1000_budget1_input6143MB_maxscalability6_candidate4.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "61605ad9cad71893bd37571b6112633a3b2cdc5fc49544a49e6f3f96be435b64"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153416_deadline1000_budget1_input6143MB_maxscalability6_candidate5.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "c2c0660188ead14204375e0d13c02677a69bd13b711dadb07777f207a40b1363"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153416_deadline1000_budget1_input6143MB_maxscalability6_candidate6.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "3f4485afe1077bdac7d08a40f2c6b8da88395561d2aa0ee2fdcf2dd02dccc62d"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153444_deadline1000_budget100_input6143MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "7575d4147881965b1396d58feae5c67d84c7f0ca8781716579a98743d6444a31"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153444_deadline1000_budget100_input6143MB_maxscalability6_candidate2.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "29ff86e684c4fd963def30459dda3711b474051a971b1bebb057770c693702fc"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153444_deadline1000_budget100_input6143MB_maxscalability6_candidate3.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "bfd7736099ced119800acb7c10ebadf4cd60aae255ccc6e6239238916abe6763"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153444_deadline1000_budget100_input6143MB_maxscalability6_candidate4.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "89b54ed9edfe11c4d55ce59d01ff071af30a3fac13f962cdccd8b43276384664"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153444_deadline1000_budget100_input6143MB_maxscalability6_candidate5.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b3fc1624bd5cfe8a7a08fa63723a7d44621b8ee84359230c39236d606b3e2173"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153444_deadline1000_budget100_input6143MB_maxscalability6_candidate6.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "021e62a30a136f406314bcbe25d8bc8a51881845d24076ff05c377d7a3cc3152"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153510_deadline1000_budget0p0005_input7388MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "a1e8a7f33b020de9e7f5bccad966ff9aaf680119d7af8f4aa268ef66e07e1ad4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153510_deadline1000_budget0p001_input7388MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "a1e8a7f33b020de9e7f5bccad966ff9aaf680119d7af8f4aa268ef66e07e1ad4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153510_deadline1000_budget0p002_input7388MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "a1e8a7f33b020de9e7f5bccad966ff9aaf680119d7af8f4aa268ef66e07e1ad4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153510_deadline1000_budget0p005_input7388MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "a1e8a7f33b020de9e7f5bccad966ff9aaf680119d7af8f4aa268ef66e07e1ad4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153510_deadline1000_budget0p01_input7388MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "a1e8a7f33b020de9e7f5bccad966ff9aaf680119d7af8f4aa268ef66e07e1ad4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153510_deadline1000_budget0p02_input7388MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "a1e8a7f33b020de9e7f5bccad966ff9aaf680119d7af8f4aa268ef66e07e1ad4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153510_deadline1000_budget0p05_input7388MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "a1e8a7f33b020de9e7f5bccad966ff9aaf680119d7af8f4aa268ef66e07e1ad4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153510_deadline1000_budget0p1_input7388MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "a1e8a7f33b020de9e7f5bccad966ff9aaf680119d7af8f4aa268ef66e07e1ad4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153510_deadline1000_budget100_input7388MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "aa7640d4d84d01b59cdc6d7b7955361e31720e88b16e8d482d25a6481d7ad987"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153510_deadline1000_budget1_input7388MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "a1e8a7f33b020de9e7f5bccad966ff9aaf680119d7af8f4aa268ef66e07e1ad4"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153603_deadline1000_budget0p0005_input7388MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "708fbc7ae8a94487caf51e7d7c3bc45b2d9294425eff2d8373d9d71b14f8aa07"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153621_deadline1000_budget0p001_input7388MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "708fbc7ae8a94487caf51e7d7c3bc45b2d9294425eff2d8373d9d71b14f8aa07"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153647_deadline1000_budget0p002_input7388MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "708fbc7ae8a94487caf51e7d7c3bc45b2d9294425eff2d8373d9d71b14f8aa07"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153709_deadline1000_budget0p005_input7388MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "708fbc7ae8a94487caf51e7d7c3bc45b2d9294425eff2d8373d9d71b14f8aa07"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153736_deadline1000_budget0p01_input7388MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "708fbc7ae8a94487caf51e7d7c3bc45b2d9294425eff2d8373d9d71b14f8aa07"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153752_deadline1000_budget0p02_input7388MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "708fbc7ae8a94487caf51e7d7c3bc45b2d9294425eff2d8373d9d71b14f8aa07"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153821_deadline1000_budget0p05_input7388MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "708fbc7ae8a94487caf51e7d7c3bc45b2d9294425eff2d8373d9d71b14f8aa07"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153839_deadline1000_budget0p1_input7388MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "708fbc7ae8a94487caf51e7d7c3bc45b2d9294425eff2d8373d9d71b14f8aa07"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153906_deadline1000_budget1_input7388MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "2a603b64250bb5e273e11f43a48193dd95d5f3984500a30587753c8b17cd33c5"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153933_deadline1000_budget100_input7388MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "493d5971e2c03af0659730c882b57604adabc144ad5d1139b34ce8ee5c74907e"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153959_deadline1000_budget0p0005_input12296MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "1f4245cfe97388d5df431813d73c5f13d2d26659db1e4b554684036eb8a4f166"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153959_deadline1000_budget0p001_input12296MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "1f4245cfe97388d5df431813d73c5f13d2d26659db1e4b554684036eb8a4f166"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153959_deadline1000_budget0p002_input12296MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "1f4245cfe97388d5df431813d73c5f13d2d26659db1e4b554684036eb8a4f166"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153959_deadline1000_budget0p005_input12296MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "1f4245cfe97388d5df431813d73c5f13d2d26659db1e4b554684036eb8a4f166"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153959_deadline1000_budget0p01_input12296MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "1f4245cfe97388d5df431813d73c5f13d2d26659db1e4b554684036eb8a4f166"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153959_deadline1000_budget0p02_input12296MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "1f4245cfe97388d5df431813d73c5f13d2d26659db1e4b554684036eb8a4f166"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153959_deadline1000_budget0p05_input12296MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "1f4245cfe97388d5df431813d73c5f13d2d26659db1e4b554684036eb8a4f166"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_153959_deadline1000_budget0p1_input12296MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "1f4245cfe97388d5df431813d73c5f13d2d26659db1e4b554684036eb8a4f166"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154000_deadline1000_budget100_input12296MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "e1198e3972ff6dbeed3d2e4600700b96cf79791d5b712894111598d87bc67798"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154000_deadline1000_budget1_input12296MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "1f4245cfe97388d5df431813d73c5f13d2d26659db1e4b554684036eb8a4f166"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154049_deadline1000_budget0p0005_input12296MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "61705958bd9d86c90abc2fcb51098a5b607b3430c641b34a0b76c93d935e7289"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154114_deadline1000_budget0p001_input12296MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "61705958bd9d86c90abc2fcb51098a5b607b3430c641b34a0b76c93d935e7289"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154139_deadline1000_budget0p002_input12296MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "61705958bd9d86c90abc2fcb51098a5b607b3430c641b34a0b76c93d935e7289"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154205_deadline1000_budget0p005_input12296MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "61705958bd9d86c90abc2fcb51098a5b607b3430c641b34a0b76c93d935e7289"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154227_deadline1000_budget0p01_input12296MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "61705958bd9d86c90abc2fcb51098a5b607b3430c641b34a0b76c93d935e7289"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154247_deadline1000_budget0p02_input12296MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "61705958bd9d86c90abc2fcb51098a5b607b3430c641b34a0b76c93d935e7289"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154312_deadline1000_budget0p05_input12296MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "61705958bd9d86c90abc2fcb51098a5b607b3430c641b34a0b76c93d935e7289"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154342_deadline1000_budget0p1_input12296MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "61705958bd9d86c90abc2fcb51098a5b607b3430c641b34a0b76c93d935e7289"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154403_deadline1000_budget1_input12296MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "61705958bd9d86c90abc2fcb51098a5b607b3430c641b34a0b76c93d935e7289"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154429_deadline1000_budget100_input12296MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "e7d7be4e80d790ba902a883ca67dec47632fd935457840de277f321313209e29"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154455_deadline1000_budget0p0005_input24664MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "4e7957bde7c0b13d5816920d3334487e5f5a149c5fa478ae59bbdc25db1055be"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154455_deadline1000_budget0p001_input24664MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "4e7957bde7c0b13d5816920d3334487e5f5a149c5fa478ae59bbdc25db1055be"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154455_deadline1000_budget0p002_input24664MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "4e7957bde7c0b13d5816920d3334487e5f5a149c5fa478ae59bbdc25db1055be"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154455_deadline1000_budget0p005_input24664MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "4e7957bde7c0b13d5816920d3334487e5f5a149c5fa478ae59bbdc25db1055be"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154455_deadline1000_budget0p01_input24664MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "4e7957bde7c0b13d5816920d3334487e5f5a149c5fa478ae59bbdc25db1055be"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154455_deadline1000_budget0p02_input24664MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "4e7957bde7c0b13d5816920d3334487e5f5a149c5fa478ae59bbdc25db1055be"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154455_deadline1000_budget0p05_input24664MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "4e7957bde7c0b13d5816920d3334487e5f5a149c5fa478ae59bbdc25db1055be"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154455_deadline1000_budget0p1_input24664MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "4e7957bde7c0b13d5816920d3334487e5f5a149c5fa478ae59bbdc25db1055be"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154455_deadline1000_budget100_input24664MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "17d61af3b996cb0660d85050289278c166e0bb5a1277430c663ac784c8a312e3"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154455_deadline1000_budget1_input24664MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "4e7957bde7c0b13d5816920d3334487e5f5a149c5fa478ae59bbdc25db1055be"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154547_deadline1000_budget0p0005_input24664MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b4215478b200699ecb93d1c4fc8d91320a6da1f723fe0bd303f0f986fe9717e5"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154610_deadline1000_budget0p001_input24664MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b4215478b200699ecb93d1c4fc8d91320a6da1f723fe0bd303f0f986fe9717e5"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154632_deadline1000_budget0p002_input24664MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b4215478b200699ecb93d1c4fc8d91320a6da1f723fe0bd303f0f986fe9717e5"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154658_deadline1000_budget0p005_input24664MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b4215478b200699ecb93d1c4fc8d91320a6da1f723fe0bd303f0f986fe9717e5"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154726_deadline1000_budget0p01_input24664MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b4215478b200699ecb93d1c4fc8d91320a6da1f723fe0bd303f0f986fe9717e5"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154750_deadline1000_budget0p02_input24664MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b4215478b200699ecb93d1c4fc8d91320a6da1f723fe0bd303f0f986fe9717e5"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154817_deadline1000_budget0p05_input24664MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b4215478b200699ecb93d1c4fc8d91320a6da1f723fe0bd303f0f986fe9717e5"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154840_deadline1000_budget0p1_input24664MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b4215478b200699ecb93d1c4fc8d91320a6da1f723fe0bd303f0f986fe9717e5"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154905_deadline1000_budget1_input24664MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "b4215478b200699ecb93d1c4fc8d91320a6da1f723fe0bd303f0f986fe9717e5"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_154934_deadline1000_budget100_input24664MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "91c31e64950503a22f726821aaf7042796985ffc3d58e70a8274a32e6d23ca1c"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155000_deadline1000_budget0p0005_input36955MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "33f5b6f313ebc5b1b778cf4ea5a041627ef5a2ee298199957bf1bbebdcded741"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155000_deadline1000_budget0p001_input36955MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "33f5b6f313ebc5b1b778cf4ea5a041627ef5a2ee298199957bf1bbebdcded741"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155000_deadline1000_budget0p002_input36955MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "33f5b6f313ebc5b1b778cf4ea5a041627ef5a2ee298199957bf1bbebdcded741"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155000_deadline1000_budget0p005_input36955MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "33f5b6f313ebc5b1b778cf4ea5a041627ef5a2ee298199957bf1bbebdcded741"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155000_deadline1000_budget0p01_input36955MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "33f5b6f313ebc5b1b778cf4ea5a041627ef5a2ee298199957bf1bbebdcded741"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155000_deadline1000_budget0p02_input36955MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "33f5b6f313ebc5b1b778cf4ea5a041627ef5a2ee298199957bf1bbebdcded741"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155000_deadline1000_budget0p05_input36955MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "33f5b6f313ebc5b1b778cf4ea5a041627ef5a2ee298199957bf1bbebdcded741"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155000_deadline1000_budget0p1_input36955MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "33f5b6f313ebc5b1b778cf4ea5a041627ef5a2ee298199957bf1bbebdcded741"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155000_deadline1000_budget100_input36955MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "8f3d81f6c07e55d20b15aa1ac82e4e27d99834d53bd440dab264b0966b469e27"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155000_deadline1000_budget1_input36955MB_maxscalability1_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "33f5b6f313ebc5b1b778cf4ea5a041627ef5a2ee298199957bf1bbebdcded741"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155049_deadline1000_budget0p0005_input36955MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "050fec44c5cd07e6bdf12bf08fffc1a63ef027110f071b0a16185923e8895b27"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155112_deadline1000_budget0p001_input36955MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "050fec44c5cd07e6bdf12bf08fffc1a63ef027110f071b0a16185923e8895b27"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155138_deadline1000_budget0p002_input36955MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "050fec44c5cd07e6bdf12bf08fffc1a63ef027110f071b0a16185923e8895b27"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155203_deadline1000_budget0p005_input36955MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "050fec44c5cd07e6bdf12bf08fffc1a63ef027110f071b0a16185923e8895b27"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155225_deadline1000_budget0p01_input36955MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "050fec44c5cd07e6bdf12bf08fffc1a63ef027110f071b0a16185923e8895b27"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155247_deadline1000_budget0p02_input36955MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "050fec44c5cd07e6bdf12bf08fffc1a63ef027110f071b0a16185923e8895b27"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155309_deadline1000_budget0p05_input36955MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "050fec44c5cd07e6bdf12bf08fffc1a63ef027110f071b0a16185923e8895b27"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155338_deadline1000_budget0p1_input36955MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "050fec44c5cd07e6bdf12bf08fffc1a63ef027110f071b0a16185923e8895b27"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155405_deadline1000_budget1_input36955MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "050fec44c5cd07e6bdf12bf08fffc1a63ef027110f071b0a16185923e8895b27"
+    },
+    {
+      "path": "scheduler-cost-sweep/timelines/timeline_costsweep_20260611_155433_deadline1000_budget100_input36955MB_maxscalability6_candidate1.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "e142bd0e5d2e18a435eeec6aa11bf3231a724173d5e3686508d5b6c67836706b"
+    },
+    {
+      "path": "scheduler-cost-sweep/cost_sweep_summary.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "ab81263455bab2f66a64916c102d51d76c5a443a05a75c402f6e7ec4eab35dd2"
+    },
+    {
+      "path": "scheduler-cost-sweep/budget_sensitivity_summary.csv",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "f9021cf4d3e637d7a946e5abeee295d8d2657a0049ca6042aff9449a3cf04aa5"
+    },
+    {
+      "path": "scheduler-cost-sweep/cost_makespan_tradeoff.png",
+      "source": "rebuttal budget sweep, June 2026",
+      "sha256": "07287f76fbbb49750d58ddece6043793c1b649e2735143e07e7f160edc033df9"
+    },
+    {
+      "path": "analysis/data/replay/main_deployment_times.csv",
+      "source": "completed replay full_cachefix_20260613_233836; dry_run_id 9631",
+      "sha256": "06eb04035f594b7841d30c73c60feb50602e44b9ec467dbbf2d676453fb46664"
+    },
+    {
+      "path": "analysis/data/replay/main_step_times.csv",
+      "source": "completed replay full_cachefix_20260613_233836; dry_run_id 9631",
+      "sha256": "27ebd1ae5e4f65352774611c9436c6e0b11b87122decc8ac9f292bc281bb1771"
+    },
+    {
+      "path": "analysis/reference-plots/cpu.pdf",
+      "source": "plots in revised manuscript, June 2026",
+      "sha256": "798b3108814238827bceab17773e31bc038ffae9d9359c1e8614d36437ce76ad"
+    },
+    {
+      "path": "analysis/reference-plots/makespan.pdf",
+      "source": "plots in revised manuscript, June 2026",
+      "sha256": "6f8eeb83f987892701faf61647bb9180708ab32eebf22aa2f563eeb6c560e631"
+    },
+    {
+      "path": "analysis/reference-plots/makespan_diff.pdf",
+      "source": "plots in revised manuscript, June 2026",
+      "sha256": "89d8be337b164cf4dd2074bf004b0a45ff463635dd10e0fbae0d8fe250d57977"
+    },
+    {
+      "path": "analysis/reference-plots/mem.pdf",
+      "source": "plots in revised manuscript, June 2026",
+      "sha256": "c61af224203cc923cadc78d8c1737ae5465d5c94ff2332e3946e5b1d0beae6d5"
+    },
+    {
+      "path": "analysis/reference-plots/sp.pdf",
+      "source": "plots in revised manuscript, June 2026",
+      "sha256": "87e31b8692ba71f23c91cc01b94dd24beec89d06f4304f4a2a7c266082fec095"
+    },
+    {
+      "path": "analysis/reference-plots/sp_diff.pdf",
+      "source": "plots in revised manuscript, June 2026",
+      "sha256": "5bcabdbc9ab2b92b8deb8fc761a505bd856c669aa0be3daf850e96c4898513ed"
+    },
+    {
+      "path": "analysis/rebuild_pipeline_step_figures.py",
+      "source": "rebuttal figure script; packaging path changes documented in analysis/README.md",
+      "sha256": "a188adbc08edcb4923b9d22e63532b3d2ad19f6b8a93e9a1398c37165a4f3a6c",
+      "source_sha256": "fae8d999c25d1ce72cfe08eb02a022b53267bb8f722077ab4e1058e6ec3a1911"
+    }
+  ]
+}

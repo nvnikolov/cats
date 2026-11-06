@@ -18,7 +18,6 @@ ROOT = ANALYSIS_DIR / "data"
 OUT_DIR = ANALYSIS_DIR / "output"
 PAPER_FIGURES_DIR = OUT_DIR / "Figures"
 PLOTS_DIR = OUT_DIR / "Plots"
-PARTIAL_AWS_RUN_DIR = ROOT / "aws_replay" / "results" / "partial_abort_20260613_115634" / "extracted" / "partial_abort"
 MAIN_SCALED_TIMELINE = "timeline_metrics3_20241121_221927_deadline1000_budget100_input24664MB_maxscalability6.csv"
 
 STEP_LABELS = {
@@ -91,14 +90,6 @@ def read_completed_aws_step_times():
     return by_event
 
 
-def parse_duration_seconds(value):
-    match = re.fullmatch(r"(?:(\d+)h)?(?:(\d+)m)?(?:(\d+)s)?", value.strip())
-    if not match:
-        return None
-    hours, minutes, seconds = (int(part) if part else 0 for part in match.groups())
-    return hours * 3600 + minutes * 60 + seconds
-
-
 def schedule_makespan(path):
     return max(float(row["End Position"]) for row in read_dicts(path) if row["Step Name"] != "source")
 
@@ -140,31 +131,6 @@ def collect_makespan_by_input():
             }
         )
     return records
-
-
-def read_partial_aws_lower_bound():
-    jobs_path = PARTIAL_AWS_RUN_DIR / "jobs.txt"
-    if not jobs_path.exists():
-        return None
-    lower_bound = 0
-    for line in jobs_path.read_text().splitlines()[1:]:
-        parts = line.split()
-        if len(parts) < 5 or not parts[0].startswith("cats-"):
-            continue
-        parsed_age = parse_duration_seconds(parts[4])
-        if parsed_age is not None:
-            lower_bound = max(lower_bound, parsed_age)
-    if lower_bound <= 0:
-        return None
-    return {
-        "input_mbs": 25180.0,
-        "maxscalability": 6,
-        "measured_lower_bound": lower_bound,
-        "predicted_makespan": schedule_makespan(
-            ROOT / "timeline_metrics3_20241121_221927_deadline1000_budget100_input24664MB_maxscalability6.csv"
-        ),
-        "label": "AWS replay, stopped",
-    }
 
 
 def collect_evaluation_data():
@@ -898,7 +864,6 @@ def draw_makespan_plot(data):
 
 def draw_scaling_makespan_by_input_plot():
     records = collect_makespan_by_input()
-    partial = read_partial_aws_lower_bound()
 
     fig, ax = plt.subplots(figsize=(7.0, 4.0))
     styles = {
@@ -934,34 +899,6 @@ def draw_scaling_makespan_by_input_plot():
             linewidth=1.2,
             alpha=0.82,
             label=f"{style['label']} predicted",
-        )
-
-    if partial and not read_completed_aws_makespan():
-        ax.scatter(
-            partial["input_mbs"],
-            partial["measured_lower_bound"],
-            marker="*",
-            s=150,
-            facecolor="#f59e0b",
-            edgecolor="black",
-            linewidth=0.8,
-            zorder=5,
-            label="AWS replay lower bound",
-        )
-        ax.annotate(
-            "",
-            xy=(partial["input_mbs"], partial["measured_lower_bound"] * 1.45),
-            xytext=(partial["input_mbs"], partial["measured_lower_bound"] * 1.06),
-            arrowprops={"arrowstyle": "->", "color": "#92400e", "lw": 1.2},
-        )
-        ax.text(
-            partial["input_mbs"] * 0.96,
-            partial["measured_lower_bound"] * 1.52,
-            f">= {partial['measured_lower_bound'] / 60:.0f} min\npartial run",
-            ha="right",
-            va="bottom",
-            fontsize=8,
-            color="#92400e",
         )
 
     ax.set_xscale("log")
